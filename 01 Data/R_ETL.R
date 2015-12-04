@@ -31,9 +31,6 @@ if( length(measures) > 1 || ! is.na(dimensions)) {
 }
 
 library(lubridate)
-# Fix date columns, this needs to be done by hand because | needs to be correct.
-df$Accident_Date <- gsub(" [0-9]+:.*", "", gsub(" UTC", "", mdy(as.character(df$Accident_Date), tz="UTC")))
-
 
 write.csv(df, paste(gsub(".csv", "", file_path), ".reformatted.csv", sep=""), row.names=FALSE, na = "")
 
