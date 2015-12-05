@@ -511,7 +511,7 @@ Year,Reference_Number,Grid_Ref_Easting,Grid_Ref_Northing,Number_of_Vehicles,Numb
 2013,130110399,429051,433853,2,1,14_03_2013,700,Unclassified,Wet,Darkness (streetlighting unknown),Fine w/o high winds,Driver or rider,Slight,Male,45,Minibus
 2013,130110485,426137,439013,1,1,13_03_2013,1725,Unclassified,Wet,Darkness (streetlighting unknown),Raining w/o high winds,Vehicle or pillion passenger,Slight,Male,4,Bus or coach
 2013,130111343,425614,436979,1,1,14_03_2013,1020,Unclassified,Dry,Daylight (streetlights present),Fine w/o high winds,Pedestrian,Slight,Male,71,Car
-2013,130111586,429396,430167,2,1,13_03_2013,2105,"A (""back roads"")",Dry,Darkness (streetlights present and lit),Fine w/o high winds,Driver or rider,Slight,Male,15,Car0
+2013,130111586,429396,430167,2,1,13_03_2013,2105,"A (""back roads"")",Dry,Darkness (streetlights present and lit),Fine w/o high winds,Driver or rider,Slight,Male,15,Car
 2013,130111778,431021,430778,2,2,14_03_2013,1905,Unclassified,Wet,Darkness (streetlights present and lit),Fine w/o high winds,Driver or rider,Slight,Male,19,Car
 2013,130111778,431021,430778,2,2,14_03_2013,1905,Unclassified,Wet,Darkness (streetlights present and lit),Fine w/o high winds,Vehicle or pillion passenger,Slight,Female,19,Car
 2013,130111892,436819,433733,1,1,14_03_2013,2140,"A (""back roads"")",Dry,Darkness (streetlighting unknown),Fine w/o high winds,Pedestrian,Slight,Male,19,Car
@@ -640,7 +640,7 @@ Year,Reference_Number,Grid_Ref_Easting,Grid_Ref_Northing,Number_of_Vehicles,Numb
 2013,130144619,431335,441264,4,6,7_4_2013,1600,"A (""back roads"")",Dry,Daylight (streetlights present),Fine w/o high winds,Vehicle or pillion passenger,Slight,Male,23,Car
 2013,130144619,431335,441264,4,6,7_4_2013,1600,"A (""back roads"")",Dry,Daylight (streetlights present),Fine w/o high winds,Vehicle or pillion passenger,Slight,Male,20,Car
 2013,130144619,431335,441264,4,6,7_4_2013,1600,"A (""back roads"")",Dry,Daylight (streetlights present),Fine w/o high winds,Vehicle or pillion passenger,Serious,Male,32,Car
-2013,130144728,432097,435604,1,1,7_4_2013,1555,Unclassified,Dry,Daylight (streetlights present),Fine w/o high winds,Driver or rider,Slight,Male,25,Car0
+2013,130144728,432097,435604,1,1,7_4_2013,1555,Unclassified,Dry,Daylight (streetlights present),Fine w/o high winds,Driver or rider,Slight,Male,25,Car
 2013,130144760,427818,430641,2,1,19_03_2013,1525,"A (""back roads"")",Dry,Daylight (streetlights present),Fine w/o high winds,Driver or rider,Slight,Male,42,Bicycle
 2013,130146085,427636,427956,1,1,8_4_2013,1633,Unclassified,Dry,Daylight (streetlights present),Fine w/o high winds,Vehicle or pillion passenger,Slight,Female,57,Bus or coach
 2013,130146251,436144,435325,2,1,8_4_2013,1610,"A (""back roads"")",Dry,Daylight (streetlights present),Fine w/o high winds,Driver or rider,Slight,Female,58,Car
@@ -1182,7 +1182,7 @@ Year,Reference_Number,Grid_Ref_Easting,Grid_Ref_Northing,Number_of_Vehicles,Numb
 2013,130265687,427412,434694,2,1,27_06_2013,110,Unclassified,Dry,Darkness (streetlighting unknown),Fine w/o high winds,Driver or rider,Slight,Male,20,Bicycle
 2013,130266065,426232,433073,2,1,28_06_2013,820,B (regional road),Wet,Daylight (streetlights present),Raining w/o high winds,Driver or rider,Slight,Male,36,Bicycle
 2013,130266171,430456,431165,1,1,28_06_2013,935,Unclassified,Dry,Daylight (streetlights present),Fine w/o high winds,Driver or rider,Serious,Male,22,Motorcycle >50cc and <=125cc
-2013,130266277,431002,430599,2,1,28_06_2013,1135,Motorway (freeway),Dry,Daylight (streetlights present),Fine w/o high winds,Driver or rider,Slight,Male,70,Car0
+2013,130266277,431002,430599,2,1,28_06_2013,1135,Motorway (freeway),Dry,Daylight (streetlights present),Fine w/o high winds,Driver or rider,Slight,Male,70,Car
 2013,130266443,426807,438043,2,1,28_06_2013,630,"A (""back roads"")",Wet,Darkness (streetlighting unknown),Raining w/o high winds,Driver or rider,Slight,Male,37,Motorcycle >50cc and <=125cc
 2013,130266506,430758,436693,1,1,28_06_2013,1028,"A (""back roads"")",Dry,Daylight (streetlights present),Fine w/o high winds,Pedestrian,Slight,Male,83,Goods vehicle <=3.5 tons
 2013,130266967,428620,426410,1,1,28_06_2013,1605,Motorway (freeway),Dry,Daylight (streetlights present),Fine w/o high winds,Driver or rider,Slight,Male,26,Motorcycle >125cc and <=500cc
@@ -1377,7 +1377,7 @@ Year,Reference_Number,Grid_Ref_Easting,Grid_Ref_Northing,Number_of_Vehicles,Numb
 2013,130309226,424829,433048,1,2,27_07_2013,1600,Unclassified,Dry,Daylight (streetlights present),Fine w/o high winds,Driver or rider,Slight,Male,87,Car
 2013,130309226,424829,433048,1,2,27_07_2013,1600,Unclassified,Dry,Daylight (streetlights present),Fine w/o high winds,Vehicle or pillion passenger,Slight,Female,87,Car
 2013,130309316,431789,435565,2,1,26_07_2013,2156,"A (""back roads"")",Dry,Daylight (streetlights present),Fine w/o high winds,Driver or rider,Serious,Male,26,Motorcycle >125cc and <=500cc
-2013,130309437,425940,437263,1,1,1_7_2013,2340,Unclassified,Dry,Darkness (streetlights present and lit),Fine w/o high winds,Pedestrian,Slight,Male,33,Car0
+2013,130309437,425940,437263,1,1,1_7_2013,2340,Unclassified,Dry,Darkness (streetlights present and lit),Fine w/o high winds,Pedestrian,Slight,Male,33,Car
 2013,130309690,422046,435607,2,4,26_07_2013,2135,Unclassified,Dry,Daylight (streetlights present),Fine w/o high winds,Driver or rider,Slight,Male,36,Car
 2013,130309690,422046,435607,2,4,26_07_2013,2135,Unclassified,Dry,Daylight (streetlights present),Fine w/o high winds,Vehicle or pillion passenger,Slight,Male,3,Car
 2013,130309690,422046,435607,2,4,26_07_2013,2135,Unclassified,Dry,Daylight (streetlights present),Fine w/o high winds,Vehicle or pillion passenger,Slight,Female,33,Car
@@ -1640,7 +1640,7 @@ Year,Reference_Number,Grid_Ref_Easting,Grid_Ref_Northing,Number_of_Vehicles,Numb
 2013,130359504,434126,428754,1,1,30_08_2013,2044,Unclassified,Dry,Daylight (streetlights present),Fine w/o high winds,Pedestrian,Slight,Male,19,Car
 2013,130359624,427522,436948,2,1,30_08_2013,925,"A (""back roads"")",Dry,Daylight (streetlights present),Fine w/o high winds,Driver or rider,Slight,Male,13,Bicycle
 2013,130360005,424637,444930,2,1,31_08_2013,1205,"A (""back roads"")",Dry,Daylight (streetlights present),Fine w/o high winds,Driver or rider,Slight,Male,51,Bicycle
-2013,130360317,430142,433773,1,1,31_08_2013,1450,Unclassified,Dry,Daylight (streetlights present),Fine w/o high winds,Pedestrian,Serious,Female,81,Car0
+2013,130360317,430142,433773,1,1,31_08_2013,1450,Unclassified,Dry,Daylight (streetlights present),Fine w/o high winds,Pedestrian,Serious,Female,81,Car
 2013,130360360,426968,439829,2,1,31_08_2013,1625,"A (""back roads"")",Dry,Daylight (streetlights present),Fine w/o high winds,Driver or rider,Slight,Male,24,Bicycle
 2013,130360429,432945,438856,2,1,31_08_2013,1525,Unclassified,Dry,Daylight (streetlights present),Fine w/o high winds,Driver or rider,Slight,Male,48,Motorcycle over 500cc
 2013,130360682,424520,444226,2,4,31_08_2013,1930,"A (""back roads"")",Dry,Daylight (streetlights present),Fine w/o high winds,Driver or rider,Fatal,Male,37,Motorcycle over 500cc
@@ -1835,7 +1835,7 @@ Year,Reference_Number,Grid_Ref_Easting,Grid_Ref_Northing,Number_of_Vehicles,Numb
 2013,130400692,431445,429409,2,1,28_09_2013,1850,Unclassified,Dry,Darkness (streetlights present and lit),Fine w/o high winds,Driver or rider,Slight,Male,24,Motorcycle >50cc and <=125cc
 2013,130401060,430759,434652,1,1,29_09_2013,500,"A (""back roads"")",Dry,Daylight (streetlights present),Fine w/o high winds,Pedestrian,Slight,Male,21,Car
 2013,130401338,432749,431007,2,1,29_09_2013,802,Unclassified,Dry,Daylight (streetlights present),Fine w/o high winds,Driver or rider,Slight,Male,23,Motorcycle >50cc and <=125cc
-2013,130401718,423900,434040,1,1,29_09_2013,1440,Unclassified,Dry,Daylight (streetlights present),Fine w/o high winds,Vehicle or pillion passenger,Serious,Female,49,Car0
+2013,130401718,423900,434040,1,1,29_09_2013,1440,Unclassified,Dry,Daylight (streetlights present),Fine w/o high winds,Vehicle or pillion passenger,Serious,Female,49,Car
 2013,130402107,429923,427827,1,1,29_09_2013,1755,Unclassified,Dry,Daylight (streetlights present),Fine w/o high winds,Pedestrian,Slight,Male,7,Car
 2013,130402294,427607,434510,2,1,27_09_2013,1705,"A (""back roads"")",Dry,Daylight (streetlights present),Fine w/o high winds,Driver or rider,Slight,Male,46,Bicycle
 2013,130402444,430942,432193,2,1,30_09_2013,940,"A (""back roads"")",Dry,Daylight (streetlights present),Fine w/o high winds,Driver or rider,Slight,Male,41,Bicycle
@@ -1927,7 +1927,7 @@ Year,Reference_Number,Grid_Ref_Easting,Grid_Ref_Northing,Number_of_Vehicles,Numb
 2013,130422950,425622,438011,2,3,13_10_2013,2018,"A (""back roads"")",Dry,Daylight (streetlights present),Fine w/o high winds,Vehicle or pillion passenger,Serious,Male,44,Motorcycle <= 50cc
 2013,130423024,428322,429613,3,1,13_10_2013,1335,"A (""back roads"")",Dry,Daylight (streetlights present),Raining w/o high winds,Driver or rider,Slight,Male,32,Car
 2013,130423035,433365,436925,2,1,12_10_2013,920,Unclassified,Wet,Daylight (streetlights present),Fine w/o high winds,Driver or rider,Slight,Male,18,Motorcycle >50cc and <=125cc
-2013,130423720,428525,431398,1,1,10_10_2013,1945,"A (""back roads"")",Dry,Darkness (streetlights present and lit),Fine w/o high winds,Vehicle or pillion passenger,Serious,Female,54,Car0
+2013,130423720,428525,431398,1,1,10_10_2013,1945,"A (""back roads"")",Dry,Darkness (streetlights present and lit),Fine w/o high winds,Vehicle or pillion passenger,Serious,Female,54,Car
 2013,130423861,419631,438553,3,2,14_10_2013,1249,"A (""back roads"")",Wet,Daylight (streetlights present),Fine w/o high winds,Driver or rider,Slight,Female,34,Car
 2013,130423861,419631,438553,3,2,14_10_2013,1249,"A (""back roads"")",Wet,Daylight (streetlights present),Fine w/o high winds,Driver or rider,Slight,Female,41,Car
 2013,130423876,419924,434106,2,2,14_10_2013,1450,"A (""back roads"")",Wet,Daylight (streetlights present),Raining w/o high winds,Driver or rider,Slight,Female,67,Car
@@ -2301,7 +2301,7 @@ Year,Reference_Number,Grid_Ref_Easting,Grid_Ref_Northing,Number_of_Vehicles,Numb
 2013,130511558,430009,433379,2,1,4_12_2013,830,Unclassified,Dry,Daylight (streetlights present),Fine w/o high winds,Driver or rider,Slight,Male,32,Bicycle
 2013,130511872,420872,434421,3,1,13_12_2013,1815,"A (""back roads"")",Wet,Darkness (streetlights present and lit),Fine w/o high winds,Driver or rider,Slight,Female,24,Car
 2013,130511907,419121,443415,2,3,13_12_2013,1640,Unclassified,Wet,Darkness (no streetlights),Fine w/o high winds,Driver or rider,Slight,Male,19,Car
-2013,130511907,419121,443415,2,3,13_12_2013,1640,Unclassified,Wet,Darkness (no streetlights),Fine w/o high winds,Driver or rider,Slight,Male,66,Car0
+2013,130511907,419121,443415,2,3,13_12_2013,1640,Unclassified,Wet,Darkness (no streetlights),Fine w/o high winds,Driver or rider,Slight,Male,66,Car
 2013,130511907,419121,443415,2,3,13_12_2013,1640,Unclassified,Wet,Darkness (no streetlights),Fine w/o high winds,Vehicle or pillion passenger,Slight,Male,62,Car
 2013,130511915,427975,436062,2,2,13_12_2013,1720,"A (""back roads"")",Wet,Darkness (streetlights present and lit),Raining w/o high winds,Driver or rider,Slight,Male,23,Taxi/Prive hire car
 2013,130511915,427975,436062,2,2,13_12_2013,1720,"A (""back roads"")",Wet,Darkness (streetlights present and lit),Raining w/o high winds,Vehicle or pillion passenger,Slight,Female,39,Taxi/Prive hire car
@@ -2757,7 +2757,7 @@ Year,Reference_Number,Grid_Ref_Easting,Grid_Ref_Northing,Number_of_Vehicles,Numb
 2014,13R1317,432513,427318,2,3,27_03_2014,1850,"A (""back roads"")",Wet,Darkness (streetlights present and lit),Raining w/o high winds,Vehicle or pillion passenger,Slight,Female,8,Car
 2014,13R1369,431959,435824,2,2,27_03_2014,1440,"A (""back roads"")",Dry,Daylight (streetlights present),Fine w/o high winds,Driver or rider,Slight,Male,61,Car
 2014,13R1369,431959,435824,2,2,27_03_2014,1440,"A (""back roads"")",Dry,Daylight (streetlights present),Fine w/o high winds,Vehicle or pillion passenger,Slight,Female,56,Car
-2014,13S0339,432820,432033,2,1,28_03_2014,940,Unclassified,Wet,Daylight (streetlights present),Fine w/o high winds,Driver or rider,Slight,Male,26,Car0
+2014,13S0339,432820,432033,2,1,28_03_2014,940,Unclassified,Wet,Daylight (streetlights present),Fine w/o high winds,Driver or rider,Slight,Male,26,Car
 2014,13S0394,429941,425135,2,4,28_03_2014,1025,"A (""back roads"")",Wet,Daylight (streetlights present),Fine w/o high winds,Driver or rider,Slight,Male,32,Car
 2014,13S0394,429941,425135,2,4,28_03_2014,1025,"A (""back roads"")",Wet,Daylight (streetlights present),Fine w/o high winds,Vehicle or pillion passenger,Slight,Male,60,Car
 2014,13S0394,429941,425135,2,4,28_03_2014,1025,"A (""back roads"")",Wet,Daylight (streetlights present),Fine w/o high winds,Driver or rider,Slight,Male,21,Car
@@ -3082,7 +3082,7 @@ Year,Reference_Number,Grid_Ref_Easting,Grid_Ref_Northing,Number_of_Vehicles,Numb
 2014,14F1255,433073,432332,1,1,15_04_2014,1759,Unclassified,Dry,Daylight (streetlights present),Fine w/o high winds,Driver or rider,Slight,Female,54,Car
 2014,14F1358,422310,433978,1,1,15_04_2014,1847,"A (""back roads"")",Dry,Daylight (streetlights present),Fine w/o high winds,Driver or rider,Slight,Female,31,Car
 2014,14G0526,430191,431784,2,1,16_04_2014,1059,Unclassified,Dry,Daylight (streetlights present),Fine w/o high winds,Driver or rider,Slight,Male,6,Bicycle
-2014,14G0554,427924,436151,1,1,16_04_2014,1110,"A (""back roads"")",Dry,Daylight (streetlights present),Fine w/o high winds,Pedestrian,Serious,Female,34,Car0
+2014,14G0554,427924,436151,1,1,16_04_2014,1110,"A (""back roads"")",Dry,Daylight (streetlights present),Fine w/o high winds,Pedestrian,Serious,Female,34,Car
 2014,14G0648,438109,430867,1,1,16_04_2014,1200,Unclassified,Dry,Daylight (streetlights present),Fine w/o high winds,Driver or rider,Serious,Female,76,Car
 2014,14G1027,420343,439783,3,10,16_04_2014,1505,"A (""back roads"")",Dry,Daylight (streetlights present),Fine w/o high winds,Driver or rider,Slight,Female,39,Car
 2014,14G1027,420343,439783,3,10,16_04_2014,1505,"A (""back roads"")",Dry,Daylight (streetlights present),Fine w/o high winds,Vehicle or pillion passenger,Slight,Male,7,Car
@@ -3100,7 +3100,7 @@ Year,Reference_Number,Grid_Ref_Easting,Grid_Ref_Northing,Number_of_Vehicles,Numb
 2014,14G1328,424100,431966,2,1,16_04_2014,1732,Unclassified,Dry,Daylight (streetlights present),Fine w/o high winds,Driver or rider,Slight,Male,50,Bicycle
 2014,14G1555,436474,436176,1,1,16_04_2014,1907,Unclassified,Dry,Daylight (streetlights present),Fine w/o high winds,Driver or rider,Slight,Male,49,Motorcycle over 500cc
 2014,14H0187,432302,426164,2,2,17_04_2014,528,Motorway (freeway),Dry,Darkness (streetlights present and lit),Fine w/o high winds,Driver or rider,Slight,Male,30,Goods vehicle <=3.5 tons
-2014,14H0187,432302,426164,2,2,17_04_2014,528,Motorway (freeway),Dry,Darkness (streetlights present and lit),Fine w/o high winds,Driver or rider,Slight,Male,28,Car0
+2014,14H0187,432302,426164,2,2,17_04_2014,528,Motorway (freeway),Dry,Darkness (streetlights present and lit),Fine w/o high winds,Driver or rider,Slight,Male,28,Car
 2014,14H0379,432236,426267,2,4,17_04_2014,945,Motorway (freeway),Dry,Daylight (streetlights present),Unknown,Driver or rider,Slight,Female,35,Car
 2014,14H0379,432236,426267,2,4,17_04_2014,945,Motorway (freeway),Dry,Daylight (streetlights present),Unknown,Vehicle or pillion passenger,Slight,Male,4,Car
 2014,14H0379,432236,426267,2,4,17_04_2014,945,Motorway (freeway),Dry,Daylight (streetlights present),Unknown,Vehicle or pillion passenger,Slight,Female,36,Car
@@ -3440,7 +3440,7 @@ Year,Reference_Number,Grid_Ref_Easting,Grid_Ref_Northing,Number_of_Vehicles,Numb
 2014,1671192,430411,431013,2,1,6_6_2014,1705,Motorway (freeway),Dry,Daylight (streetlights present),Fine w/o high winds,Driver or rider,Slight,Female,26,Car
 2014,1671235,431919,434808,1,1,7_6_2014,1735,Unclassified,Dry,Daylight (streetlights present),Fine w/o high winds,Vehicle or pillion passenger,Serious,Male,3,Car
 2014,1671275,428635,436971,2,1,7_6_2014,1750,B (regional road),Dry,Daylight (streetlights present),Fine w/o high winds,Vehicle or pillion passenger,Slight,Female,71,Car
-2014,1671362,432345,436992,1,1,7_6_2014,1840,Unclassified,Dry,Daylight (streetlights present),Fine w/o high winds,Driver or rider,Slight,Male,29,Car0
+2014,1671362,432345,436992,1,1,7_6_2014,1840,Unclassified,Dry,Daylight (streetlights present),Fine w/o high winds,Driver or rider,Slight,Male,29,Car
 2014,1680885,420297,434256,2,2,8_6_2014,1405,"A (""back roads"")",Dry,Daylight (streetlights present),Fine w/o high winds,Vehicle or pillion passenger,Slight,Female,55,Car
 2014,1680885,420297,434256,2,2,8_6_2014,1405,"A (""back roads"")",Dry,Daylight (streetlights present),Fine w/o high winds,Vehicle or pillion passenger,Slight,Male,39,Car
 2014,1681137,430855,435446,2,1,8_6_2014,1624,Unclassified,Dry,Daylight (streetlights present),Fine w/o high winds,Driver or rider,Slight,Male,33,Bicycle
@@ -3494,15 +3494,15 @@ Year,Reference_Number,Grid_Ref_Easting,Grid_Ref_Northing,Number_of_Vehicles,Numb
 2014,16E0873,422170,441858,2,2,14_06_2014,1345,"A (""back roads"")",Dry,Daylight (streetlights present),Fine w/o high winds,Driver or rider,Slight,Female,17,Car
 2014,16E0873,422170,441858,2,2,14_06_2014,1345,"A (""back roads"")",Dry,Daylight (streetlights present),Fine w/o high winds,Vehicle or pillion passenger,Slight,Male,69,Car
 2014,16E1080,431886,435596,2,1,14_06_2014,1523,Unclassified,Dry,Daylight (streetlights present),Fine w/o high winds,Driver or rider,Slight,Female,47,Car
-2014,16E1305,422001,436537,2,1,14_06_2014,1730,"A (""back roads"")",Dry,Daylight (streetlights present),Fine w/o high winds,Driver or rider,Slight,Female,25,Car0
+2014,16E1305,422001,436537,2,1,14_06_2014,1730,"A (""back roads"")",Dry,Daylight (streetlights present),Fine w/o high winds,Driver or rider,Slight,Female,25,Car
 2014,16E1528,430877,429790,1,1,14_06_2014,1935,Unclassified,Dry,Daylight (streetlights present),Fine w/o high winds,Pedestrian,Fatal,Female,1,Car
 2014,16F0166,430795,438601,2,1,15_06_2014,130,Unclassified,Dry,Darkness (streetlights present and lit),Fine w/o high winds,Driver or rider,Serious,Male,19,Bicycle
 2014,16F0824,426281,432009,2,3,15_06_2014,1151,Unclassified,Dry,Daylight (streetlights present),Fine w/o high winds,Driver or rider,Slight,Male,21,Car
 2014,16F0824,426281,432009,2,3,15_06_2014,1151,Unclassified,Dry,Daylight (streetlights present),Fine w/o high winds,Vehicle or pillion passenger,Slight,Male,21,Car
 2014,16F0824,426281,432009,2,3,15_06_2014,1151,Unclassified,Dry,Daylight (streetlights present),Fine w/o high winds,Driver or rider,Slight,Female,43,Car
 2014,16F1155,440385,433270,2,1,15_06_2014,1510,Unclassified,Dry,Daylight (streetlights present),Fine w/o high winds,Vehicle or pillion passenger,Slight,Female,10,Car
-2014,16F1312,425103,434043,2,2,15_06_2014,1656,Unclassified,Dry,Daylight (streetlights present),Fine w/o high winds,Driver or rider,Slight,Female,28,Car0
-2014,16F1312,425103,434043,2,2,15_06_2014,1656,Unclassified,Dry,Daylight (streetlights present),Fine w/o high winds,Vehicle or pillion passenger,Slight,Female,2,Car0
+2014,16F1312,425103,434043,2,2,15_06_2014,1656,Unclassified,Dry,Daylight (streetlights present),Fine w/o high winds,Driver or rider,Slight,Female,28,Car
+2014,16F1312,425103,434043,2,2,15_06_2014,1656,Unclassified,Dry,Daylight (streetlights present),Fine w/o high winds,Vehicle or pillion passenger,Slight,Female,2,Car
 2014,16F1497,437306,443650,3,7,15_06_2014,1831,C (local authority),Dry,Daylight (streetlights present),Fine w/o high winds,Driver or rider,Slight,Male,57,Car
 2014,16F1497,437306,443650,3,7,15_06_2014,1831,C (local authority),Dry,Daylight (streetlights present),Fine w/o high winds,Vehicle or pillion passenger,Serious,Female,56,Car
 2014,16F1497,437306,443650,3,7,15_06_2014,1831,C (local authority),Dry,Daylight (streetlights present),Fine w/o high winds,Vehicle or pillion passenger,Slight,Female,28,Car
@@ -3512,7 +3512,7 @@ Year,Reference_Number,Grid_Ref_Easting,Grid_Ref_Northing,Number_of_Vehicles,Numb
 2014,16F1497,437306,443650,3,7,15_06_2014,1831,C (local authority),Dry,Daylight (streetlights present),Fine w/o high winds,Vehicle or pillion passenger,Slight,Female,21,Car
 2014,16G0061,438501,436386,1,2,16_06_2014,105,Unclassified,Dry,Darkness (streetlights present and lit),Fine w/o high winds,Driver or rider,Slight,Male,23,Car
 2014,16G0061,438501,436386,1,2,16_06_2014,105,Unclassified,Dry,Darkness (streetlights present and lit),Fine w/o high winds,Vehicle or pillion passenger,Slight,Male,30,Car
-2014,16G1167,421306,435630,2,1,16_06_2014,1643,"A (""back roads"")",Dry,Daylight (streetlights present),Fine w/o high winds,Driver or rider,Serious,Male,42,Car0
+2014,16G1167,421306,435630,2,1,16_06_2014,1643,"A (""back roads"")",Dry,Daylight (streetlights present),Fine w/o high winds,Driver or rider,Serious,Male,42,Car
 2014,16G1296,429739,425638,2,1,22_06_2014,815,"A (""back roads"")",Dry,Daylight (streetlights present),Fine w/o high winds,Driver or rider,Slight,Male,35,Bicycle
 2014,16G1305,424676,434985,2,1,16_06_2014,1743,"A (""back roads"")",Dry,Daylight (streetlights present),Fine w/o high winds,Driver or rider,Slight,Female,8,Bicycle
 2014,16G1460,425189,426029,2,1,16_06_2014,1905,Unclassified,Dry,Daylight (streetlights present),Fine w/o high winds,Driver or rider,Slight,Male,45,Bicycle
@@ -3588,7 +3588,7 @@ Year,Reference_Number,Grid_Ref_Easting,Grid_Ref_Northing,Number_of_Vehicles,Numb
 2014,16Q0922,422047,434278,2,2,26_06_2014,1415,B (regional road),Dry,Daylight (streetlights present),Fine w/o high winds,Vehicle or pillion passenger,Slight,Male,72,Bus or coach
 2014,16Q0922,422047,434278,2,2,26_06_2014,1415,B (regional road),Dry,Daylight (streetlights present),Fine w/o high winds,Vehicle or pillion passenger,Slight,Female,68,Bus or coach
 2014,16Q1758,422420,433529,1,1,26_06_2014,2140,Unclassified,Dry,Darkness (streetlights present and lit),Fine w/o high winds,Pedestrian,Slight,Male,66,Car
-2014,16R0181,420015,435473,1,1,27_06_2014,540,Unclassified,Dry,Daylight (streetlights present),Fine w/o high winds,Driver or rider,Slight,Female,50,Car0
+2014,16R0181,420015,435473,1,1,27_06_2014,540,Unclassified,Dry,Daylight (streetlights present),Fine w/o high winds,Driver or rider,Slight,Female,50,Car
 2014,16R0235,424848,427545,2,1,27_06_2014,743,"A (""back roads"")",Dry,Daylight (streetlights present),Fine w/o high winds,Vehicle or pillion passenger,Slight,Female,35,Car
 2014,16R0391,433346,432199,2,1,27_06_2014,1000,"A (""back roads"")",Dry,Daylight (streetlights present),Fine w/o high winds,Driver or rider,Slight,Female,43,Car
 2014,16R0436,425420,433192,2,1,27_06_2014,1015,B (regional road),Wet,Daylight (streetlights present),Raining w/o high winds,Driver or rider,Slight,Male,77,Car
@@ -4296,7 +4296,7 @@ Year,Reference_Number,Grid_Ref_Easting,Grid_Ref_Northing,Number_of_Vehicles,Numb
 2014,1A51652,430080,435434,2,1,5_10_2014,2347,Unclassified,Dry,Darkness (streetlights present and lit),Fine w/o high winds,Driver or rider,Slight,Male,61,Bicycle
 2014,1A60194,425583,435052,1,1,6_10_2014,730,Unclassified,Wet,Daylight (streetlights present),Raining w/o high winds,Pedestrian,Slight,Female,11,Car
 2014,1A60305,427971,431940,1,1,4_10_2014,1430,"A (""back roads"")",Wet,Daylight (streetlights present),Raining w/o high winds,Pedestrian,Slight,Male,26,Taxi/Prive hire car
-2014,1A60464,431525,434300,2,1,6_10_2014,1109,Unclassified,Wet,Daylight (streetlights present),Raining w/o high winds,Driver or rider,Slight,Male,23,Car0
+2014,1A60464,431525,434300,2,1,6_10_2014,1109,Unclassified,Wet,Daylight (streetlights present),Raining w/o high winds,Driver or rider,Slight,Male,23,Car
 2014,1A60839,429889,433412,1,1,3_10_2014,1335,Unclassified,Dry,Daylight (streetlights present),Fine w/o high winds,Vehicle or pillion passenger,Slight,Female,19,Car
 2014,1A70282,432063,435967,2,1,7_10_2014,850,Unclassified,Wet,Daylight (streetlights present),Fine w/o high winds,Driver or rider,Slight,Male,42,Bicycle
 2014,1A70469,429144,431781,2,1,7_10_2014,1107,Unclassified,Dry,Daylight (streetlights present),Fine w/o high winds,Vehicle or pillion passenger,Slight,Female,37,Car
@@ -4436,7 +4436,7 @@ Year,Reference_Number,Grid_Ref_Easting,Grid_Ref_Northing,Number_of_Vehicles,Numb
 2014,1AN1602,425221,433296,2,1,23_10_2014,2123,B (regional road),Dry,Darkness (streetlights present and lit),Fine w/o high winds,Driver or rider,Serious,Male,28,Bicycle
 2014,1AO0404,431003,431537,1,1,24_10_2014,820,Unclassified,Dry,Daylight (streetlights present),Fine w/o high winds,Pedestrian,Slight,Male,27,Car
 2014,1AO0536,428770,434640,2,1,24_10_2014,1113,Unclassified,Dry,Daylight (streetlights present),Fine w/o high winds,Driver or rider,Slight,Male,19,Bicycle
-2014,1AO0567,432652,426899,1,1,24_10_2014,1132,Unclassified,Dry,Daylight (streetlights present),Fine w/o high winds,Vehicle or pillion passenger,Slight,Male,54,Car0
+2014,1AO0567,432652,426899,1,1,24_10_2014,1132,Unclassified,Dry,Daylight (streetlights present),Fine w/o high winds,Vehicle or pillion passenger,Slight,Male,54,Car
 2014,1AO0570,444010,445069,2,1,24_10_2014,1130,"A (""back roads"")",Dry,Daylight (streetlights present),Fine w/o high winds,Driver or rider,Slight,Male,62,Bicycle
 2014,1AO0969,418941,441967,1,1,24_10_2014,1508,Unclassified,Dry,Daylight (streetlights present),Fine w/o high winds,Pedestrian,Slight,Male,11,Car
 2014,1AO1004,432427,433588,3,3,24_10_2014,1520,Unclassified,Dry,Daylight (streetlights present),Fine w/o high winds,Vehicle or pillion passenger,Slight,Male,19,Car
@@ -4782,7 +4782,7 @@ Year,Reference_Number,Grid_Ref_Easting,Grid_Ref_Northing,Number_of_Vehicles,Numb
 2014,1C51607,419210,441794,2,1,5_12_2014,2010,"A (""back roads"")",Wet,Darkness (streetlights present and lit),Fine w/o high winds,Driver or rider,Slight,Male,55,Motorcycle >50cc and <=125cc
 2014,1C51895,430435,431155,1,1,5_12_2014,2354,Motorway (freeway),Dry,Darkness (streetlights present and lit),Fine w/o high winds,Driver or rider,Slight,Female,26,Car
 2014,1C60403,431743,431426,2,1,6_12_2014,702,"A (""back roads"")",Wet,Darkness (streetlights present and lit),Fine w/o high winds,Driver or rider,Serious,Male,25,Bicycle
-2014,1C60412,429393,433805,3,1,6_12_2014,715,"A(M) (""main roads"")",Dry,Daylight (streetlights present),Fine w/o high winds,Driver or rider,Slight,Male,27,Car0
+2014,1C60412,429393,433805,3,1,6_12_2014,715,"A(M) (""main roads"")",Dry,Daylight (streetlights present),Fine w/o high winds,Driver or rider,Slight,Male,27,Car
 2014,1C60568,431256,432305,1,1,6_12_2014,1025,"A (""back roads"")",Wet,Daylight (streetlights present),Fine w/o high winds,Driver or rider,Slight,Female,25,Car
 2014,1C60577,427649,436028,1,1,6_12_2014,400,B (regional road),Dry,Darkness (streetlights present and lit),Fine w/o high winds,Pedestrian,Slight,Male,20,Taxi/Prive hire car
 2014,1C60636,440175,433412,2,2,6_12_2014,1115,"A (""back roads"")",Wet,Daylight (streetlights present),Fine w/o high winds,Driver or rider,Slight,Female,59,Car
