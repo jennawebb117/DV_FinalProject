@@ -13,6 +13,8 @@ shinyServer(function(input, output) {
   #observeEvent(input$light, { rv$alpha <- 0.10 })
   #observeEvent(input$dark, { rv$alpha <- 0.20 })
   
+  low = 4
+  
 
   #################Dataframe for fatal casualties#################
   accidents_fatal <- eventReactive(input$clicks_fatal, {data.frame(fromJSON(getURL(URLencode(gsub("\n", " ", 'skipper.cs.utexas.edu:5001/rest/native/?query=
