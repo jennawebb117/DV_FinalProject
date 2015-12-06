@@ -1,0 +1,30 @@
+---
+title: "Final Project"
+author: "Charles Martinez (cmm5627), Happy Situ (hys82), Jenna Webb (jnw653)"
+output: html_document
+---
+
+##Road Accidents in Leeds, England  
+
+<h3>Tableau Plots:</h3>  
+<h4>Boxplot:</h4>  
+![](../02 Tableau/boxplot.png)   
+<br>  
+<h4>Histogram:</h4>  
+![](../02 Tableau/histogram.png)  
+<br>  
+<h4>Scatterplot and its corresponding map:</h4>  
+![](../02 Tableau/scatterplot.png)  
+![](../02 Tableau/map.png)  
+<br>  
+<h4>Crosstabs:</h4>  
+![](../02 Tableau/crosstab1.png)  
+<br>  
+![](../02 Tableau/crosstab2.png) 
+<br>  
+![](../02 Tableau/crosstab3.png)  
+<br>
+<h4>Barcharts:</h4>
+![](../02 Tableau/barchart1.png) 
+<br>  
+![](../02 Tableau/barchart2.png) 
