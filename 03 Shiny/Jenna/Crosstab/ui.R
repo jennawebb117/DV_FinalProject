@@ -6,8 +6,6 @@ navbarPage(
   title = "Number of Casualties for Road Class vs. Road Surface",
   tabPanel(title = "Fatal",
            sidebarPanel(
-             #actionButton(inputId = "light", label = "Light"),
-             #actionButton(inputId = "dark", label = "Dark"),
              actionButton(inputId = "clicks_fatal",  label = "Click me")
            ),
            
@@ -16,8 +14,6 @@ navbarPage(
   ),
   tabPanel(title = "Serious",
            sidebarPanel(
-             #actionButton(inputId = "light", label = "Light"),
-             #actionButton(inputId = "dark", label = "Dark"),
              actionButton(inputId = "clicks_serious",  label = "Click me")
            ),
            
@@ -26,8 +22,6 @@ navbarPage(
   ),
   tabPanel(title = "Slight",
            sidebarPanel(
-             #actionButton(inputId = "light", label = "Light"),
-             #actionButton(inputId = "dark", label = "Dark"),
              actionButton(inputId = "clicks_slight",  label = "Click me")
            ),
            
