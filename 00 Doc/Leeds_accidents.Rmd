@@ -10,25 +10,25 @@ output: html_document
 <h4>Boxplot:</h4>  
 ![](../02 Tableau/boxplot.png)
 <br>
-To create this boxplot, start by clicking on Number of Casualties under measures, and then click on the Boxplot icon under the Show Me tab.Drag Type of Vehicle onto columns, and Number of Vehicles onto color.
+To create this boxplot begin by unchecking Aggregate Measures under the Analysis tab, then click on Number of Casualties under measures, and then click on the Boxplot icon under the Show Me tab. Drag Type of Vehicle onto columns, and Number of Vehicles onto color.
 
 <br>  
 <h4>Histogram:</h4>  
 ![](../02 Tableau/histogram.png) 
-To create this histogram, start by clicking Age of Casualty under measures, and then click on the Histogram icon under the Show Me tab. Change the bin size to 1 to show every age. Drag Lighting Conditions onto color and filters.
+To create this histogram first make sure that Aggregate measures is checked under the Analysis tab, then click Age of Casualty under measures, and then click on the Histogram icon under the Show Me tab. Change the bin size to 1 by clicking on Age of Casualty in the Dimensions box and clicking edit to show every age. Drag Lighting Conditions onto color and filters.
 <br>  
 <h4>Scatterplot and its corresponding map:</h4>  
 ![](../02 Tableau/scatterplot.png) 
 <br>
 ![](../02 Tableau/map.png)  
-To create this scatterplot, start by dragging Grid Ref Easting onto columns and Grid Ref Northing onto rows. Drag Number of Casualties onto color and filters, and then showed quick fliter.
+To create this scatterplot begin by unchecking Aggregate Measures under the Analysis Tab, then drag Grid Ref Easting onto columns and Grid Ref Northing onto rows. Drag Number of Casualties onto color and filters, and then click quick fliter. Right click on each axis, then select edit axis. From there click Fixed Range and choose 422,000 the Start and 451,000 as the End for the Y-axis. Now follow the same steps for the X-axis but choose the starting value to be 413,000 and the End value to be 447,000.
 <br>
 <h4>Crosstabs:</h4>  
 ![](../02 Tableau/crosstab1.png)  
-To create this first crosstab, start by dragging Lighting Conditions onto rows and Weather Conditions onto columns. Then drag Number of Casualties onto color and text. Drag Sex of Casualty onto filters, and then onto rows. Then drag Road Surface onto pages.
+To create this first crosstab begin by making sure that Aggregate Measures is checked, then drag Lighting Conditions onto rows and Weather Conditions onto columns. Then drag Number of Casualties onto color and label. Drag Sex of Casualty onto filters, and then onto rows. Then drag Road Surface onto pages.
 <br>  
 ![](../02 Tableau/crosstab2.png)   
-To create this second crosstab, start by dragging Road Class onto columns and Road Surface onto rows. Make a calculated field called KPI - Casualties that looked like this:
+To create this second crosstab begin by making sure that Aggregate Measures is checked, then drag Road Class onto columns and Road Surface onto rows. Make a calculated field called KPI - Casualties that looked like this:
 ```
 IF (ATTR([Casualty Severity]) == 'Fatal' AND (SUM([Number Of Casualties])) <= 11)
 THEN "Low"
@@ -39,16 +39,16 @@ THEN "Low"
 ELSE "High"
 END
 ```
-Drag this new calculated field onto shapes. Then drag Causalty Severity onto pages. To change the shape of the data points, click on Edit Shapes under the card that displays "High" and "Low".  
+Drag this new calculated field onto shapes. Then drag Causalty Severity onto pages. On the Marks card select Shape. To change the shape of the data points, click on Edit Shapes under the card that displays "High" and "Low".  
 <br>
 ![](../02 Tableau/crosstab3.png)  
-To create this third crosstab, start by dragging Weather Conditions onto columns, and Lighting Conditions onto rows. Then create a new calculated field called KPI - Age that looks like this:
+To create this third crosstab begin by making sure that Aggregate Measures is checked, then drag Weather Conditions onto columns, and Lighting Conditions onto rows. Then create a new calculated field called KPI - Age that looks like this:
 ```
 if [Age Of Casualty] < 18 then "Young"
 else "Old"
 end
 ```
-Drag the new calculated field shape. To change the shape, click Edit Shapes under the card that displays "Old" and "Young". Then, drag Casualty Class onto filter and choose 'Driver or rider'. Drag Road Surface onto pages.
+On the Marks card select Shape. Then drag the new calculated field shape. To change the shape, click Edit Shapes under the card that displays "Old" and "Young". Then, drag Casualty Class onto filter and choose 'Driver or rider'. Drag Road Surface onto pages.
 <br>
 <h4>Barcharts:</h4>
 
