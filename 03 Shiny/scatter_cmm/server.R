@@ -9,11 +9,10 @@ require(leaflet)
 
 shinyServer(function(input, output) {
   
-  num_casualties <- reactive({input$num_casualties}) 
+  Number_of_Casualties <- reactive({input$num_casualties}) 
   
   accidents_location <- eventReactive(input$clicks_location, {data.frame(fromJSON(getURL(URLencode(gsub("\n", " ", 'skipper.cs.utexas.edu:5001/rest/native/?query=
-                                                                                                        "select GRID_REF_EASTING, GRID_REF_NORTHING, NUMBER_OF_CASUALTIES 
-                                                                                                        from Leeds_road_accidents_2013_2014;"')), httpheader=c(DB='jdbc:oracle:thin:@sayonara.microlab.cs.utexas.edu:1521:orcl', USER='C##cs329e_jnw653', PASS='orcl_jnw653', MODE='native_mode', MODEL='model', returnDimensions = 'False', returnFor = 'JSON'), verbose = TRUE)))
+                                                                                                        "select NUMBER_OF_CASUALTIES, GRID_REF_EASTING, GRID_REF_NORTHING from Leeds_road_accidents_2013_2014;"')), httpheader=c(DB='jdbc:oracle:thin:@sayonara.microlab.cs.utexas.edu:1521:orcl', USER='C##cs329e_cmm5627', PASS='orcl_cmm5627', MODE='native_mode', MODEL='model', returnDimensions = 'False', returnFor = 'JSON', p1=Number_of_Casualties()), verbose = TRUE)))
   })
   
   
