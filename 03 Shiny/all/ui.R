@@ -23,5 +23,9 @@ navbarPage(
   
   tabPanel(title = "Barchart",
   sidebarPanel(actionButton(inputId = "clicks_MALE",  label = "Click me")),
-  mainPanel(plotOutput("distPlot_happy")))
+  mainPanel(plotOutput("distPlot_happy"))),
+  
+  tabPanel(title = "Barchart by Severity",
+  sidebarPanel(actionButton(inputId = "clicks_severity",  label = "Click me")),
+  mainPanel(plotOutput("distPlot_happy2")))
 )
