@@ -18,16 +18,20 @@ This boxplot displays the type of vehicle involved in a vehicle collision vs. th
 ![](../02 Tableau/histogram.png) 
 To create this histogram first make sure that Aggregate measures is checked under the Analysis tab, then click Age of Casualty under measures, and then click on the Histogram icon under the Show Me tab. Change the bin size to 1 by clicking on Age of Casualty in the Dimensions box and clicking edit to show every age. Drag Lighting Conditions onto color and filters.
 <br>  
-The histogram is partioned by age every one year to show the lighting conditions of the environment during each accident and how many people of each age were involved. Fromt he data, we can see that at around 17 years of age, the number of casualties increase until age 23, when it becomes the highest. From there, the trend of number of casualties begins to decrease. Furthermore, the histogram shows that most accidents in Leeds occur during daylight and in the presence of streetlights. 
+The histogram is partioned by age every one year to show the lighting conditions of the environment during each accident and how many people of each age were involved. From the data, we can see that at around 17 years of age, the number of casualties increase until age 23, when it becomes the highest. From there, the trend of number of casualties begins to decrease. Furthermore, the histogram shows that most accidents in Leeds occur during daylight and in the presence of streetlights. 
 <h4>Scatterplot and its corresponding map:</h4>  
 ![](../02 Tableau/scatterplot.png) 
 <br>
-![](../02 Tableau/map.png)  
+![](../02 Tableau/map.png) 
+<br>  
 To create this scatterplot begin by unchecking Aggregate Measures under the Analysis Tab, then drag Grid Ref Easting onto columns and Grid Ref Northing onto rows. Drag Number of Casualties onto color and filters, and then click quick fliter. Right click on each axis, then select edit axis. From there click Fixed Range and choose 422,000 the Start and 451,000 as the End for the Y-axis. Now follow the same steps for the X-axis but choose the starting value to be 413,000 and the End value to be 447,000.
-<br>
+<br>  
+In England, instead of using latitude and longitude, they use a UTM system, Universal Trnasverse Mercator, to produce conformal projections of locations on Earth. Our data set included the Northing and Easting coordinates of the UTM system. Using this we plotted Easting vs Northing coordinates to produce a scatterplot mapping of accidents where each data point represents an accident. Additionally, we applied a quick filter on the number of casualties to be able to determine a variance of casualties in different locations. We then searched for a website that would plot the UTM coordinates on a map in order to compare our scatterplot of accidents to a geographical map of Leeds. 
 <h4>Crosstabs:</h4>  
 ![](../02 Tableau/crosstab1.png)  
 To create this first crosstab begin by making sure that Aggregate Measures is checked, then drag Lighting Conditions onto rows and Weather Conditions onto columns. Then drag Number of Casualties onto color and label. Drag Sex of Casualty onto filters, and then onto rows. Then drag Road Surface onto pages.
+<br>    
+This crosstab shows the weather conditions vs the lighting conditions by sex of the casualty. The color of each value represents the number of casualties. As one traverses each page, one can see the data represented for each road surface. The data shows that there weren't many casualties when the roads were icy or snowy. Looking at the road surface when dry, most accidents for both males and females occur when the weather was fine without high winds. We can also see that many casualties occured when the surface was wet but still not as many as when the surface was dry. It is also interesting to note that accross all surfaces males had represented higher casualty numbers.
 <br>  
 ![](../02 Tableau/crosstab2.png)   
 To create this second crosstab begin by making sure that Aggregate Measures is checked, then drag Road Class onto columns and Road Surface onto rows. Make a calculated field called KPI - Casualties that looked like this:
@@ -42,23 +46,25 @@ ELSE "High"
 END
 ```
 Drag this new calculated field onto shapes. Then drag Causalty Severity onto pages. On the Marks card select Shape. To change the shape of the data points, click on Edit Shapes under the card that displays "High" and "Low".  
-<br>
-![](../02 Tableau/crosstab3.png)  
-To create this third crosstab begin by making sure that Aggregate Measures is checked, then drag Weather Conditions onto columns, and Lighting Conditions onto rows. Then create a new calculated field called KPI - Age that looks like this:
-```
-if [Age Of Casualty] < 18 then "Young"
-else "Old"
-end
-```
-On the Marks card select Shape. Then drag the new calculated field shape. To change the shape, click Edit Shapes under the card that displays "Old" and "Young". Then, drag Casualty Class onto filter and choose 'Driver or rider'. Drag Road Surface onto pages.
+<br>  
+This crosstab shows road surface vs road class where each page shows a different serverity of casualty. We created a KPI that represents the number of casualties per casualty severity, where the distinction between high and low depends on the severity of the casualty. We determined what high and low corresponds to by taking the median of each casualty severity, number of casualties per casualty severity, and labeling any value above the median as "high" and values below as "low". By scrolling through each page we can see that most casualties are "slight" followed by "serious", with "fatal" having the lowest number of casualties. The medians for each are:
+Fatal = 11
+Serious = 156
+Slight = 1431
+For each page the number of injuries were below the median.
 <br>
 <h4>Barcharts:</h4>
 ![](../02 Tableau/barchart1-1.png)
 ![](../02 Tableau/barchart1-2.png)
-THIS IS HOW YOU MAKE THIS
-<br>
+To create this bar chart first make sure that Aggregate measures is checked under the analysis tab, then drag Number of Casualties from measures onto columns, and Age of Casualty from dimensions onto rows. Then, drag Casualty Severity onto color. To change the order of the age, right click on the title of the y-axis and click on “Sort Descending.” Next, right click on the x-axis and select “Add Reference Line.” A window should pop up, change the label from “computation” to “value” and then click “ok.”
+<br>  
+This barchart displays the age of the casualty vs the sum of the number of casualties with the color being the casualty severity. The reference line refers to the average number of casualties. Notice that most of the casualties were classified as slight with only a few classified as serious and even less as fatal. People ages 56, 50-48, 46-17, and 13 had higher than average number of casualties, which is 93.
+<br>  
 ![](../02 Tableau/barchart2-1.png)
 ![](../02 Tableau/barchart2-2.png)
-AND THIS IS HOW TOU MAKE THIS
+<br>  
+To create this bar chart first make sure that Aggregate measures is checked under the analysis tab, then drag Number of Casualties from measures onto columns, and Age of Casualty from dimensions onto rows. Then, drag Sex of Casualty onto color. To change the order of the age, right click on the title of the y-axis and click on “Sort Descending.” Next, right click on the x-axis and select “Add Reference Line.” A window should pop up, change the label from “computation” to “value” and then click “ok.”
+<br>  
+This barchart displays the age of the casualty vs the sum of the number of casualties with the color being the sex of the casualty. The reference line refers to the average number of casualties. Notice that most of the casualties involved males. Males ages 35-34, 32, 30-17 had higher than average number of casualties and this average includes both males and females!
 
 
