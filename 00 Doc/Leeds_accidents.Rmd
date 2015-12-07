@@ -61,6 +61,8 @@ For each page the number of injuries was below the median.
 ![](../02 Tableau/barchart1-2.png)
 To create this bar chart first make sure that Aggregate measures is checked under the analysis tab, then drag Number of Casualties from measures onto columns, and Age of Casualty from dimensions onto rows. Then, drag Casualty Severity onto color. To change the order of the age, right click on the title of the y-axis and click on “Sort Descending.” Next, right click on the x-axis and select “Add Reference Line.” A window should pop up, change label from “computation” to “value” and then click “ok.”
 <br>  
+Note: In order for me to see the distribution of the Number of Casualties across age, I had to convert Age of Casualty to a dimension so that I could sum the Number of Casualties for each age. If I had not done this Tableau would have proceeded to make a scatterplot instead of a bar chart. To do this, make a duplicate of the measure Age of Casualty by right clicking of the variable and selecting duplicate. Then, drag that copy into the dimensions field. Right click on that same variable you just dragged and hover over “Change Data Type.” Next, select string.
+<br>  
 This barchart displays the age of the casualty vs the sum of the number of casualties by age. The color shows casualty severity, green representing casualties of slight severity, red representing casualties of serious severity, and blue representing casualties that were fatal. The reference line refers to the average number of casualties which is 93. Notice that most of the casualties were classified as slight with only a few classified as serious and even less as fatal. People ages 13, 17-47, 48-50, and 56 had higher than 93 casualties.
 <br>  
 ![](../02 Tableau/barchart2-1.png)
@@ -72,3 +74,5 @@ This barchart also displays the age of the casualty vs the sum of the number of 
 
 <h3>Shiny Application Link:</h3>
 https://jennawebb117.shinyapps.io/FinalProject
+<br>  
+<br>  
