@@ -59,16 +59,16 @@ For each page the number of injuries was below the median.
 <h4>Barcharts:</h4>
 ![](../02 Tableau/barchart1-1.png)
 ![](../02 Tableau/barchart1-2.png)
-To create this bar chart first make sure that Aggregate measures is checked under the analysis tab, then drag Number of Casualties from measures onto columns, and Age of Casualty from dimensions onto rows. Then, drag Casualty Severity onto color. To change the order of the age, right click on the title of the y-axis and click on “Sort Descending.” Next, right click on the x-axis and select “Add Reference Line.” A window should pop up, change the label from “computation” to “value” and then click “ok.”
+To create this bar chart first make sure that Aggregate measures is checked under the analysis tab, then drag Number of Casualties from measures onto columns, and Age of Casualty from dimensions onto rows. Then, drag Casualty Severity onto color. To change the order of the age, right click on the title of the y-axis and click on “Sort Descending.” Next, right click on the x-axis and select “Add Reference Line.” A window should pop up, change label from “computation” to “value” and then click “ok.”
 <br>  
-This barchart displays the age of the casualty vs the sum of the number of casualties with the color being the casualty severity. The reference line refers to the average number of casualties. Notice that most of the casualties were classified as slight with only a few classified as serious and even less as fatal. People ages 56, 50-48, 46-17, and 13 had higher than average number of casualties, which is 93.
+This barchart displays the age of the casualty vs the sum of the number of casualties by age. The color shows casualty severity, green representing casualties of slight severity, red representing casualties of serious severity, and blue representing casualties that were fatal. The reference line refers to the average number of casualties which is 93. Notice that most of the casualties were classified as slight with only a few classified as serious and even less as fatal. People ages 13, 17-47, 48-50, and 56 had higher than 93 casualties.
 <br>  
 ![](../02 Tableau/barchart2-1.png)
 ![](../02 Tableau/barchart2-2.png)
 <br>  
 To create this bar chart first make sure that Aggregate measures is checked under the analysis tab, then drag Number of Casualties from measures onto columns, and Age of Casualty from dimensions onto rows. Then, drag Sex of Casualty onto color. To change the order of the age, right click on the title of the y-axis and click on “Sort Descending.” Next, right click on the x-axis and select “Add Reference Line.” A window should pop up, change the label from “computation” to “value” and then click “ok.”
 <br>  
-This barchart displays the age of the casualty vs the sum of the number of casualties with the color being the sex of the casualty. The reference line refers to the average number of casualties. Notice that most of the casualties involved males. Males ages 35-34, 32, 30-17 had higher than average number of casualties and this average includes both males and females!
+This barchart also displays the age of the casualty vs the sum of the number of casualties by age. The color shows sex of casualty; red representing females and green representing males. The reference line refers to the average number of casualties. Notice that most of the casualties involved males. Males ages 17-30, 32, and 34-35 had higher than average number of casualties and this average includes both males and females!
 
 <h3>Shiny Application Link:</h3>
 https://jennawebb117.shinyapps.io/FinalProject
