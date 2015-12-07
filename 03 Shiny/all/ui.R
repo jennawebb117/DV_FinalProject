@@ -21,7 +21,7 @@ navbarPage(
   sidebarPanel(actionButton(inputId = "clicks_slight",  label = "Click me")),
   mainPanel(plotOutput("distPlot_jenna3"))), 
   
-  tabPanel(title = "Barchart",
+  tabPanel(title = "Barchart by Sex",
   sidebarPanel(actionButton(inputId = "clicks_MALE",  label = "Click me")),
   mainPanel(plotOutput("distPlot_happy"))),
   

@@ -67,4 +67,5 @@ To create this bar chart first make sure that Aggregate measures is checked unde
 <br>  
 This barchart displays the age of the casualty vs the sum of the number of casualties with the color being the sex of the casualty. The reference line refers to the average number of casualties. Notice that most of the casualties involved males. Males ages 35-34, 32, 30-17 had higher than average number of casualties and this average includes both males and females!
 
-
+<h3>Shiny Application Link:</h3>
+https://jennawebb117.shinyapps.io/FinalProject
