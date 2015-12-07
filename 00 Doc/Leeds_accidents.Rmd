@@ -6,17 +6,23 @@ output: html_document
 
 ##Road Accidents in Leeds, England  
 
+``` {r}
+source("../01 Data/dataframe.R", echo = FALSE)
+summary(accidents)
+```
+
+
 <h3>Tableau Plots:</h3>  
 <h4>Boxplot:</h4>  
 ![](../02 Tableau/boxplot.png)
 <br>  
 To create this boxplot begin by unchecking Aggregate Measures under the Analysis tab, then click on Number of Casualties under measures, and then click on the Boxplot icon under the Show Me tab. Drag Type of Vehicle onto columns, and Number of Vehicles onto color.
 <br>  
-This boxplot displays the type of vehicle involved in a vehicle collision vs. the number of casualties caused by the collision. The variance of color for each data point represents the number of vehicles involed in the accident with green representing the lowest value of 1 and red the highest value of 8. Notice the column labeled car: this display shows that car accidents account for the highest number of accidents in Leeds, as well as involve the highest amount of vehicles per accident.
+This boxplot displays the type of vehicle involved in a vehicle collision vs. the number of casualties caused by the collision. The variance of color for each data point represents the number of vehicles involved in the accident with green representing the lowest value of 1 and red the highest value of 8. Notice the column labeled car: this display shows that car accidents account for the highest number of accidents in Leeds, as well as involve the highest amount of vehicles per accident.
 <br>  
 <h4>Histogram:</h4>  
 ![](../02 Tableau/histogram.png) 
-To create this histogram first make sure that Aggregate measures is checked under the Analysis tab, then click Age of Casualty under measures, and then click on the Histogram icon under the Show Me tab. Change the bin size to 1 by clicking on Age of Casualty in the Dimensions box and clicking edit to show every age. Drag Lighting Conditions onto color and filters.
+To create this histogram first make sure that Aggregate measures is checked under the Analysis tab, then click Age of Casualty under measures, and then click on the Histogram icon under the Show Me tab. Change the bin size to 1 by clicking on Age of Casualty (bin) in the Dimensions box and clicking edit to show every age. Drag Lighting Conditions onto color and filters.
 <br>  
 The histogram is partioned by age every one year to show the lighting conditions of the environment during each accident and how many people of each age were involved. From the data, we can see that at around 17 years of age, the number of casualties increase until age 23, when it becomes the highest. From there, the trend of number of casualties begins to decrease. Furthermore, the histogram shows that most accidents in Leeds occur during daylight and in the presence of streetlights. 
 <h4>Scatterplot and its corresponding map:</h4>  
@@ -31,7 +37,7 @@ In England, instead of using latitude and longitude, they use a UTM system, Univ
 ![](../02 Tableau/crosstab1.png)  
 To create this first crosstab begin by making sure that Aggregate Measures is checked, then drag Lighting Conditions onto rows and Weather Conditions onto columns. Then drag Number of Casualties onto color and label. Drag Sex of Casualty onto filters, and then onto rows. Then drag Road Surface onto pages.
 <br>    
-This crosstab shows the weather conditions vs the lighting conditions by sex of the casualty. The color of each value represents the number of casualties. As one traverses each page, one can see the data represented for each road surface. The data shows that there weren't many casualties when the roads were icy or snowy. Looking at the road surface when dry, most accidents for both males and females occur when the weather was fine without high winds. We can also see that many casualties occured when the surface was wet but still not as many as when the surface was dry. It is also interesting to note that accross all surfaces males had represented higher casualty numbers.
+This crosstab shows the weather conditions vs the lighting conditions by sex of the casualty. The color of each value represents the number of casualties. As one traverses each page, one can see the data represented for each road surface. The data shows that there weren't many casualties when the roads were icy or snowy. Looking at the road surface when dry, most accidents for both males and females occur when the weather was fine without high winds. We can also see that many casualties occured when the surface was wet but still not as many as when the surface was dry. It is also interesting to note that across all surfaces males had represented higher casualty numbers.
 <br>  
 ![](../02 Tableau/crosstab2.png)   
 To create this second crosstab begin by making sure that Aggregate Measures is checked, then drag Road Class onto columns and Road Surface onto rows. Make a calculated field called KPI - Casualties that looked like this:
@@ -45,13 +51,13 @@ THEN "Low"
 ELSE "High"
 END
 ```
-Drag this new calculated field onto shapes. Then drag Causalty Severity onto pages. On the Marks card select Shape. To change the shape of the data points, click on Edit Shapes under the card that displays "High" and "Low".  
-<br>  
-This crosstab shows road surface vs road class where each page shows a different serverity of casualty. We created a KPI that represents the number of casualties per casualty severity, where the distinction between high and low depends on the severity of the casualty. We determined what high and low corresponds to by taking the median of each casualty severity, number of casualties per casualty severity, and labeling any value above the median as "high" and values below as "low". By scrolling through each page we can see that most casualties are "slight" followed by "serious", with "fatal" having the lowest number of casualties. The medians for each are:
+On the Marks card select Shape. Drag this new calculated field onto shapes. Then drag Causalty Severity onto pages. To change the shape of the data points, click on Edit Shapes under the card that displays "High" and "Low".  
+<br>   
+This crosstab shows road surface vs road class where each page shows a different serverity of casualty. We created a KPI that represents the number of casualties per casualty severity, where the distinction between high and low depends on the severity of the casualty. We determined what high and low corresponds to by taking the median number of casualties per casualty severity, and labeling any value above the median as "high" and values below as "low". By scrolling through each page we can see that most casualties are "slight" followed by "serious", with "fatal" having the lowest number of casualties. The medians for each are:
 Fatal = 11
 Serious = 156
 Slight = 1431
-For each page the number of injuries were below the median.
+For each page the number of injuries was below the median.
 <br>
 <h4>Barcharts:</h4>
 ![](../02 Tableau/barchart1-1.png)
