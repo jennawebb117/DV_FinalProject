@@ -51,4 +51,12 @@ end
 On the Marks card select Shape. Then drag the new calculated field shape. To change the shape, click Edit Shapes under the card that displays "Old" and "Young". Then, drag Casualty Class onto filter and choose 'Driver or rider'. Drag Road Surface onto pages.
 <br>
 <h4>Barcharts:</h4>
+![](../02 Tableau/barchart1-1.png)
+![](../02 Tableau/barchart1-2.png)
+THIS IS HOW YOU MAKE THIS
+<br>
+![](../02 Tableau/barchart2-1.png)
+![](../02 Tableau/barchart2-2.png)
+AND THIS IS HOW TOU MAKE THIS
+
 
